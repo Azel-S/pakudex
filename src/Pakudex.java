@@ -74,7 +74,7 @@ public class Pakudex
     // Based off of insertion sort, uses species name to sort
     public void sortPakuri()
     {
-        int j; // Used to do swaps until current value (i) is at it's designated spot
+        int j; // Used to do swaps until currentP is at it's designated spot
 
         for (int i = 1; i < size; i++)  // Starts at index 1, as 0 doesn't matter
         {
